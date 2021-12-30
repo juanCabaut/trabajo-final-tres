@@ -1,0 +1,125 @@
+section h1 {
+  margin-bottom: 10%; }
+
+footer {
+  margin-top: 10%; }
+
+.cervezas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
+.cuestionario {
+  display: flex;
+  justify-content: center; }
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 0px;
+  margin-top: 10px;
+  margin-bottom: 280px; }
+  .grid-menu .card {
+    display: flex;
+    justify-content: center; }
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.carru {
+  display: flex;
+  justify-content: center;
+  height: 50vh; }
+  .carru .container {
+    height: 100%; }
+  .carru .carousel-control-next {
+    margin-top: 6rem; }
+  .carru .carousel-control-prev {
+    margin-top: 6rem; }
+
+header {
+  width: 100%;
+  clear: both;
+  display: table; }
+  header .martillo {
+    display: flex;
+    justify-content: center; }
+    header .martillo h1 {
+      color: #2dd143;
+      text-align: center;
+      text-overflow: clip;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  header .barra {
+    /* background-color: rgb(32, 32, 206); */
+    display: flex;
+    justify-content: center; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: bisque;
+  justify-content: center; }
+
+header {
+  width: 100%;
+  clear: both;
+  display: table; }
+  header .martillo {
+    display: flex;
+    justify-content: center; }
+    header .martillo h1 {
+      color: #2dd143;
+      text-align: center;
+      text-overflow: clip;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  header .barra {
+    /* background-color: rgb(32, 32, 206); */
+    display: flex;
+    justify-content: center; }
+
+ul {
+  text-align: center; }
+  ul li {
+    display: inline-block; }
+  ul a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #1b29a8;
+    padding: 20px; }
+  ul :hover {
+    color: #ffffffa1; }
+
+h1 {
+  color: #2dd143;
+  text-align: center;
+  text-overflow: clip;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative; }
+
+section h2 {
+  text-align: center; }
+
+footer h3 {
+  text-align: center;
+  color: goldenrod; }
+
+footer p {
+  text-align: center;
+  color: black; }
+
+footer .loguito {
+  text-align: center;
+  margin-bottom: 15px; }
+
+footer .imagenesFooter {
+  text-align: center;
+  margin-bottom: 15px; }
